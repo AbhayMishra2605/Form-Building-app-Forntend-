@@ -1,0 +1,166 @@
+.formResponseDashboard{
+    width: 100vw;
+    height: 100vh;
+}
+
+.formNavigateBtn{
+    margin-left: 35vw;
+}
+
+.formheaderNavigateBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+}
+
+.formFlowBtn{
+    font-size: 1.2vw;
+    cursor: pointer;
+}
+
+.formResponseBtn{
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: #7EA6FF;
+    cursor: pointer;
+    border: 0.2vw solid gray;
+    padding: 0.3vw 0.8vw;
+}
+
+.formResponseDashboardStatsContainer{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.views {
+    margin-top: 5vw;
+    margin-left: 30vw;
+    background-color: rgba(128, 128, 128, 0.411);
+    padding: 3vw 3vw;
+    border-radius: 0.8vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.8vw;
+}
+
+.stats{
+    margin-top: 5vw;
+    margin-right: 30vw;
+    background-color: rgba(128, 128, 128, 0.411);
+    padding: 3vw 3vw;
+    border-radius: 0.8vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.8vw;
+
+}
+
+
+.NoResponse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.NoResponse p{
+    font-size: 2vw;
+    color: #69696973;
+
+}
+
+
+.calendarIcon{
+    width: 1vw;
+    height: 1vw;
+}
+
+.formResponseData{
+    align-items: center;
+    justify-self:center;
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    
+}
+
+
+
+.formResponseData::-webkit-scrollbar {
+    width: 0.8vw; /* Width of the scrollbar */
+    height: 0.8vw; /* Height of the horizontal scrollbar */
+}
+
+.formResponseData::-webkit-scrollbar-track {
+    background: rgba(128, 128, 128, 0.1); /* Background color of the track */
+    border-radius: 0.4vw; /* Rounded corners for the track */
+
+}
+
+.formResponseData::-webkit-scrollbar-thumb {
+    background: #2d2a3559; /* Color of the scrollbar thumb */
+    border-radius: 0.4vw; /* Rounded corners for the thumb */
+    cursor: pointer;
+
+}
+
+.formResponseData::-webkit-scrollbar-thumb:hover {
+    background: #212a4163; 
+}
+
+.responseTable {
+   display: ; 
+    border-collapse: collapse;
+    margin: 2vw 0;
+    font-size: 1.2vw;
+    text-align: left;
+  }
+  
+  .responseTable th,
+  .responseTable td {
+    border: 0.15vw solid gray;
+    background-color: rgba(128, 128, 128, 0.123);
+    padding: 0.8vw;
+  }
+  
+  .responseTable th {
+    
+    background-color: rgba(128, 128, 128, 0.247);
+    font-weight: bold;
+    
+  }
+  
+  .piechart{
+    
+    margin-left: 4vw;
+    
+    width: 30%;
+  }
+ 
+  .Completed{
+    width: 6vw;
+    font-weight: 500;
+    font-size: 1.2vw;
+    text-align: center;
+  }
+  
+
+  .comlition{
+    margin-left: 20vw;
+    margin-top: 3vw;
+    width: 18vw;
+    background-color: rgba(128, 128, 128, 0.274);
+    border-radius: 1vw;
+  }
+  .comlitionrate{
+    font-weight: 500;
+    padding: 2.5vw 1.5vw;
+    font-size: 2vw;
+  }

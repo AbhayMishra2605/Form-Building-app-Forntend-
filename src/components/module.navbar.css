@@ -1,0 +1,53 @@
+.landingPageNavbar{
+
+width: 90vw;
+display: flex;
+justify-content: space-between;
+margin-top: 1.5vw;
+
+}
+
+.navbarLeftContainer ,.navbarrighttContainer{
+    display: flex;
+align-items: center;
+}
+.pageIconalt{
+    font-size: 2.8vh;
+    margin-left: 0.5vh;
+    cursor: pointer;
+}
+.landingPageNavbar img{ 
+    width: 3.5vw;
+    height: 3.5vw;
+    
+
+}
+.landingPageNavbarContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbarSigninBtn{
+    border:  thin solid  rgba(126, 166, 255, 1);
+    color: rgba(126, 166, 255, 1);
+    
+    padding-top: 0.4vw;
+    padding-bottom: 0.4vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    margin-right: 3vw;
+    font-weight: 700;
+    font-size: 1.3vw;
+    border-radius: 0.3vw;
+    cursor: pointer;
+}
+
+
+.navbarFormBotBtn{
+    background: rgba(26, 95, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    margin-right: 2.5vw;
+    padding: 0.5vw 1.3vw;
+    cursor: pointer;
+}

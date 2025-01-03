@@ -1,0 +1,113 @@
+.dashboardUser-container{
+    display: flex;
+    width: 20vw;
+    border: 0.1vw solid gray;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    font-family: Open Sans;
+    background-color: #fdfbce15;
+   
+   }
+
+
+
+
+
+.DashboardUserName{
+
+font-size: 1.2vw;
+font-weight: 600;
+line-height: 1.4vw;
+text-align: center;
+
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+
+}
+
+.DashboardUserName img{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 0.5vw;
+    cursor: pointer;
+}
+
+
+.dashboardUser-containerDropItem{
+    
+    box-sizing: border-box;
+   font-weight: 600;
+    width: 25vw;
+    border: 0.1vw solid gray;
+  
+    padding: 0.7vw;
+    
+
+    border-radius: 0.5vw;
+   
+}
+
+.dashboardUser-containerDropItemUser{
+    box-sizing: border-box;
+    font-weight: 600;
+     width: 25vw;
+     border: 0.1vw solid gray;
+   
+     padding: 1vw 1vw;
+     
+    
+     border-radius: 0.5vw;
+}
+
+
+.DashboardUserNameList{
+    font-family: Open Sans;
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height: 1.4vw;
+    width: 100%;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-left: 0.2vw;
+    
+    cursor: pointer;
+    
+    cursor: pointer;
+}
+
+.DashboardUserNameList img{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 1vw;
+   
+    
+    cursor: pointer;
+}
+
+
+.dropdown-item{
+    cursor:pointer;
+    font-size: 1.2vw;
+    margin-left: 0.2vw;
+    
+    
+
+}
+
+.dropdown-itemlogout{
+    cursor:pointer;
+    font-size: 1.2vw;
+    
+color: #FFA54C;
+
+
+}
+
+.dashboardUser-containerDrop{
+    position: fixed;
+    top: 1vw;
+}

@@ -1,0 +1,131 @@
+.dashboard_page_header_right_share button{
+    background: #1A5FFF;
+    color: white;
+    padding: 0.4vw 1vw;
+  cursor: pointer;
+    border-radius: 0.4vw;
+    border-style: none;
+    font-size: 1.2vw;
+}
+
+
+.modal-container {
+    top:25%;
+    border-radius: 2vw;
+    left: 35%;
+    position: fixed;
+    border: 0.2vw solid gray;
+    color: white;
+    padding: 1.8vw;
+   
+    width: 45vw;
+    margin: 0 auto;
+  }
+  
+  .modal-content .invite-headerText {
+    margin-top: 4vw;
+    font-size: 2.3vw;
+    margin-bottom: 1vw;
+    width: 80%;
+  }
+  
+
+  .modal-content h3{
+    font-size: 2.3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    
+  }
+  .email-container {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 1vw;
+  }
+  
+  .email-container input {
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    height: 3vw;
+    background-color: #fffdd023;
+
+    font-size: 1.3vw;
+    border: 0.1vw solid gray;
+    color: gray;
+    width: 100%;
+    outline: none;
+  }
+  
+  
+  
+  .send-invite,
+  .copy-link {
+    padding: 1vw 2vw;
+    font-size: 1.3vw;
+    background: #1a73e8;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 0.3vw;
+    cursor: pointer;
+  }
+  
+  .send-invite:hover,
+  .copy-link:hover {
+    background: #1668d6;
+  }
+
+
+
+
+  .closeInvitePopupBtn {
+    position: absolute;
+  font-size: 2vw;
+    top: 1vw;
+    right: 1vw;
+    cursor: pointer;
+    color: red;
+  }
+
+
+  .invite-header{
+   
+    display: flex;
+    justify-content: space-between;
+  }
+
+ 
+
+  .dropdown {
+    position: relative;
+    margin-top:4.5vw ;
+    user-select: none;
+    
+  }
+  .dropdown-btn {
+    padding: 0.4vw 0.5vw;
+    border: none;
+    font-size: 1.1vw;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .dropdown-menu {
+    
+    height: 5vw;
+    border-radius: 0.4vw;
+    padding: 5px 0;
+    position: fixed;
+    margin-left: 0.1vw;
+   
+  }
+
+  .dropdown-menu li {
+    border: 0.1vw solid gray;
+    padding: 0.2vw 0.5vw;
+    cursor: pointer;
+    background-color: #fffdd044;
+  }

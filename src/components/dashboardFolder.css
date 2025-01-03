@@ -1,0 +1,162 @@
+.dashboardFolderDegine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 1.3vw;
+    font-weight: 600;
+    line-height: 1.8vw;
+    border: 1px solid gray;
+    padding: 0.4vw 1vw;
+    background-color: #fdfbce15;
+    border-radius: 0.5vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    height: 2vw;
+    width: 12vw;
+    cursor: pointer;
+    user-select: none;
+
+
+}
+
+
+.dashboardFolderDegine img{
+    width: 2vw;
+    height: 2vw;
+}
+
+.CreateFolderPopup{
+    position: fixed;
+   border: 0.2vw solid gray;
+    border-radius: 1vw;
+    top:25%;
+    width: 26vw;
+    height: 13vw;
+    background-color: black; 
+
+    left: 40%;
+    padding: 0.7vw 1.3vw;
+}
+
+.CreateFolderPopup h1{
+    font-size: 2.3vw;
+    font-family: Open Sans;
+
+font-weight: 600;
+line-height: 3vw;
+}
+
+.CreateFolderPopup input{
+    padding: 0.5vw 1vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    height: 3vw;
+    
+
+    font-size: 1.3vw;
+    border: 0.1vw solid gray;
+    color: gray;
+    width: 91.5%;
+    outline: none;
+}
+
+
+.CreateFolderPopup input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset; /* Transparent background */
+    box-shadow: 0 0 0px 1000px transparent inset; /* Transparent background */
+    color: rgba(99, 99, 100, 1) !important; /* Text color */
+}
+
+.CreateFolderPopup input:-webkit-autofill::first-line {
+    color: rgba(99, 99, 100, 1); /* Text color */
+}
+
+.CreateFolderPopup input:-moz-autofill {
+    box-shadow: 0 0 0px 1000px transparent inset; /* Transparent background */
+    color: rgba(99, 99, 100, 1) !important; /* Text color */
+}
+
+.CreateFolderPopup input:-ms-autofill {
+    box-shadow: 0 0 0px 1000px transparent inset; /* Transparent background */
+    color: rgba(99, 99, 100, 1) !important; /* Text color */
+}
+
+
+
+
+.CreatwFolderPopupBtn{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 1.8vw;
+    font-weight: 600;
+   
+}
+
+
+#CreatwFolderPopupDivIcon{
+    color: gray;
+    font-weight: bold;
+}
+
+#folderDoneBtn {
+    color:  #4B83FF;
+    
+}
+
+#folderDoneBtn, #folderCancleBtn{
+    cursor: pointer;
+}
+
+
+.folderDeleteIcon{
+   
+    margin-left: 1vw;
+    height: 2vw;
+    width: 2vw;
+    
+}
+
+
+.DeleteFolderPopup{
+    position: fixed;
+    border: 0.2vw solid gray;
+     border-radius: 1vw;
+     top:25%;
+     width: 26vw;
+     height: 13vw;
+     background-color: black; 
+ 
+     left: 40%;
+     padding: 0.7vw 1.3vw;
+    }
+
+
+    .DeleteFolderPopup p{
+        margin-top: 1vw;
+        font-size: 2.3vw;
+        margin-left: 1vw;
+        text-align: center;
+    }
+
+    .DeleteFolderPopupBtn{
+        
+        margin-top: 2vw;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 2.5vw;
+    }
+
+
+    #folderDeleteBtn{
+        cursor: pointer;
+        color: #4B83FF;
+    }
+
+
+ 

@@ -1,0 +1,48 @@
+.imageBody{
+    margin-top: 1vw;
+    width: 22vw;
+    background-color: rgba(128, 128, 128, 0.13);
+    box-sizing: border-box;
+    padding: 1vw;
+    border-radius: 1vw;
+    height: 10vw;
+}
+
+.imageBody h1{
+    font-size: 1.5vw;
+ padding: 0.1vw 0.1vw;
+}
+
+.imageBody input{
+    margin-top: 3vw;
+    outline: none;
+    width:80%;
+    margin-left: 0.8vw;
+    background-color: rgba(128, 128, 128, 0.486);
+    font-size: 1.1vw;
+    border-radius: 0.5vw;
+    padding-left: 2.5vw;
+    padding-top: 1vw;
+ 
+}
+
+
+.imageBody .deleteIcon{
+    position: relative;
+    width: 2vw;
+    top :-4.7vw;
+    left: 19vw;
+    height: 2vw;
+    cursor: pointer;
+}
+
+
+.textIcon{
+    width:1.2vw;
+    height:1.2vw;
+    position: relative;
+    top: 9.9vw;
+    left:0.1vw;
+}
+
+

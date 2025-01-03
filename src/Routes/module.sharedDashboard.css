@@ -1,0 +1,120 @@
+.sharedDashboardPage{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    transition: background-color 0.4s, color 0.4s; 
+}
+
+
+.sharedDashboard_page_header{
+    margin-top: 1vw;
+    width: 100vw;
+    display: flex;
+    padding: 0 2vw;
+    padding-bottom: 1vw;
+    border-bottom: 0.1vw solid gray;
+    height: 3vw;
+    user-select: none;
+}
+
+
+
+.sharedDashboard_page_header_left{
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sharedDashboard_page_header_right{
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+      
+}
+
+
+.SharedDashboard_page_header_right_theme{
+    display: flex;
+    align-items: center;
+    gap: 0.8vw; 
+}
+
+
+.sharedThemeSwicth{
+    position: relative;
+    display: inline-block;
+    width: 4vw;
+    height: 1.5vw;
+}
+
+.sharedThemeSwicth input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.sharedThemeSlider{
+    position: absolute;
+    cursor: pointer;
+    top: 12%;
+    left:0;
+    right: 0;
+    bottom: 12%;
+    background-color: #ccc;
+    border-radius: 2vw;
+    transition: background-color 0.4s;
+}
+
+
+
+
+.sharedThemeSlider:before {
+    position: absolute;
+    content: "";
+    height: 1.5vw;
+    width: 1.5vw;
+    left: 0.2vw;
+    bottom: 0.2vw;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+
+.sharedThemeSwicth input:checked + .sharedThemeSlider {
+    background-color: #007bff; 
+}
+
+.sharedThemeSwicth input:checked + .sharedThemeSlider:before {
+    transform: translateX(2.13vw); 
+}
+
+
+.SharedDashboard_page_header_right_theme
+    {
+    font-family: Open Sans;
+font-size: 1.1vw;
+font-weight: 600;
+line-height: 1vw;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.sharedDashboardUser{
+    display: flex;
+    width: 20vw;
+    border: 0.1vw solid gray;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    font-family: Open Sans;
+    background-color: #fdfbce15;
+    font-size: 1.23vw;
+    font-weight: 600;
+}

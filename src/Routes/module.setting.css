@@ -1,0 +1,136 @@
+.editUserPage {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  .editUserPageheader {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8vw;
+    font-weight: 600;
+    line-height: 2vw;
+    margin-top: 1vw;
+    padding: 0.3vw;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  
+  .editUserPageContainer {
+   margin: auto;
+    width: 25vw;
+    box-sizing: border-box;
+    margin-top: 15vh;
+  }
+  
+  .input-wrapper {
+    position: relative;
+    margin-top: 1.5vw;
+  }
+  
+  .input-wrapper .edituser {
+    width: 100%;
+    padding: 0.5vw 2.5vw; /* Padding leaves space for icons */
+    border: 0.1vw solid #d0d0d0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 2vw;
+    background: black;
+    color: #828282;
+    border-radius: 1vw;
+    box-sizing: border-box;
+    outline: none;
+
+  }
+  
+  .input-wrapper .input-icon {
+    position: absolute;
+    left: 0.8vw; /* Adjust for the left side */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 1.2vw;
+  }
+  
+  .input-wrapper .password-toggle-icon {
+    position: absolute;
+    right: 0.8vw; /* Adjust for the right side */
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 1.2vw;
+    cursor: pointer;
+  }
+  
+  .UpdateBtn {
+    margin-top: 2vw;
+    width: 100%;
+    padding: 0.8vw;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+  }
+  
+  .UpdateBtn:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  .input-wrapper input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px black inset;
+    box-shadow: 0 0 0px 1000px black inset;
+    color: rgba(99, 99, 100, 1) !important; 
+}
+
+.input-wrapper input:-webkit-autofill::first-line {
+    color: rgba(99, 99, 100, 1); }
+
+.input-wrapper input:-moz-autofill {
+    box-shadow: 0 0 0px 1000px black inset; 
+    color: rgba(99, 99, 100, 1) !important;
+}
+
+.input-wrapper input:-ms-autofill {
+    box-shadow: 0 0 0px 1000px black inset; 
+    color: rgba(99, 99, 100, 1) !important;
+}
+
+
+.editErrorInput{
+    width: 100%;
+    padding: 0.5vw 2.5vw; /* Padding leaves space for icons */
+    border: 0.1vw solid red;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+    line-height: 2vw;
+    background: black;
+    color: #828282;
+    border-radius: 1vw;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.settingLogOutBtn{
+  position: fixed;
+  top: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8vw;
+  color: #CF3636;
+  cursor: pointer;
+    left:5vw;
+}
+
+.settingLogOutBtn img{
+  width: 2.5vw;
+  height: 2.5vw;
+}

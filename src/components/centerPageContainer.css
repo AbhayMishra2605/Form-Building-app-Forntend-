@@ -1,0 +1,46 @@
+.centerPageContainerRighttImage {
+  
+ 
+  width: 25vw;
+  height: 25vw;
+  border-radius: 20vw;
+
+  background: #0042da;
+  filter: blur(1.5vw);
+  margin-left: 45vw;
+  
+
+}
+
+.centerPageContainerLeftImage {
+  
+
+  width: 25vw;
+  height: 25vw;
+  border-radius: 20vw;
+
+  background: #e67200;
+  filter: blur(1.5vw);
+  
+}
+
+
+.centerPageContainerCenterImage img{
+  position: absolute;
+  top: 40vw;
+  left: 4vw;
+    width: 90vw;
+    height: 40vw;
+    
+    
+}
+
+.centerPageContainer{
+    width: 92vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 3vw;
+    
+}
+
