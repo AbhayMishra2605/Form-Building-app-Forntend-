@@ -2,7 +2,6 @@ import leftNavImage from './assets/leftNavimage.png'
 import rightNavImage from './assets/rightnavimage.png'
 import pageIcon from './assets/pageIcon.png'
 import leftCenterImage from './assets/leftCenter.png'
-import rightCenterImage from './assets/RightCenter.png'
 import pageImage from './assets/pageImage.png'
 import loginState from './assets/loginState1.png'
 import loginRight from './assets/loginright.png'
@@ -33,4 +32,4 @@ import chatIcon from './assets/BotIcon.jpg'
 import sendIcon from './assets/send.png'
 import calenderIcon from './assets/calendar.png';
 
-export  {calenderIcon,sendIcon,chatIcon,flagWhiteIcon,flagIcon,inputBtnIcon,inputEmailIcon,inputDateIcon,inputNumberIcon,inputPhoneIcon,inputRatingIcon,inputTextIcon,textIcon,videoIcon,photoIcon,gifIcon,deleteIcon,folderIcon,logoutIcon,uparrow,downarrow,dropIconLast,dropicon,leftCenterImage,rightCenterImage,leftNavImage,rightNavImage,pageIcon,pageImage,loginState,loginRight,loginBottom,backIcon,googleIcon};
+export  {calenderIcon,sendIcon,chatIcon,flagWhiteIcon,flagIcon,inputBtnIcon,inputEmailIcon,inputDateIcon,inputNumberIcon,inputPhoneIcon,inputRatingIcon,inputTextIcon,textIcon,videoIcon,photoIcon,gifIcon,deleteIcon,folderIcon,logoutIcon,uparrow,downarrow,dropIconLast,dropicon,leftCenterImage,leftNavImage,rightNavImage,pageIcon,pageImage,loginState,loginRight,loginBottom,backIcon,googleIcon};
