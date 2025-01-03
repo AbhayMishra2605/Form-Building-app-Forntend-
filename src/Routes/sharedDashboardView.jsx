@@ -9,14 +9,14 @@ import { getUserDashboardById } from "../../Services";
 
 const SharedDashboardView = () => {
 
-  const { token } = useParams(); // Extract token from URL
-  const navigate = useNavigate(); // For redirection
-  const [dashboardInfo, setDashboardInfo] = useState(null); // Dashboard data state
+  const { token } = useParams(); 
+  const navigate = useNavigate();
+  const [dashboardInfo, setDashboardInfo] = useState(null); 
   const [mode, setMode] = useState(""); 
   const [isDarkMode,setIsDarkMode]=useState(false);
   const [selectedOwner, setSelectedOwner] = useState(null);
-  const [folderId, setFolderId] = useState(null); // Folder ID state
- // check if user is not logedin go to landing page
+  const [folderId, setFolderId] = useState(null); 
+ 
  useEffect(() => {
   if (!localStorage.getItem('token')) {
     navigate('/');
