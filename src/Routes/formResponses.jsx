@@ -68,10 +68,10 @@ function FormResponses() {
         
             
         
-            const {  formId } = decryptedData;
+            const {  formId,mode } = decryptedData;
             console.log("hii");
-            console.log(decryptedData);
-            console.log(formId);
+            
+            console.log(mode);
            
            setFormId(formId);
           
