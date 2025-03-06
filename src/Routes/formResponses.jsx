@@ -20,6 +20,7 @@ function FormResponses() {
     const [tableHeader,setTableHeader]=useState(null);
     const [tableData,setTableData]=useState(null);
     const [submittedAt, setSubmittedAt]=useState([]);
+     const [mode, setMode] = useState(null);
     const COLORS = ['#888888', '#0088FE'];
     
     useEffect(() => {
