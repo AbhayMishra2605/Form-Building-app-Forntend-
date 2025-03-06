@@ -150,7 +150,7 @@ function FormResponses() {
   <tbody>
     {tableData.map((row, rowIndex) => (
       <tr key={rowIndex}>
-        <td>{rowIndex + 1}</td>
+        <td>{rowIndex }</td>
         <td>{submittedAt[rowIndex]}</td>
         {row.slice(2, row.length ).map((cell, cellIndex) => (
             <td key={cellIndex}>{String(cell).trim() || ' '}</td>
