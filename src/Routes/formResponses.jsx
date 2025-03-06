@@ -70,9 +70,7 @@ function FormResponses() {
             
         
             const {  formId,mode } = decryptedData;
-            console.log("hii");
-            
-            console.log(mode);
+            setMode(mode);
            
            setFormId(formId);
           
