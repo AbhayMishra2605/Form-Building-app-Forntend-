@@ -38,6 +38,7 @@ function FormResponses() {
             
         })
         setTableData(data.allResponsesData)
+            console.log(data.allResponsesData);
        setTableHeader(data.componentTypes);
         setViews(data.views);
         setStarts(data.responseCount);
