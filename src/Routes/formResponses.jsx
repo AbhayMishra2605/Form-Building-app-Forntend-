@@ -38,6 +38,7 @@ function FormResponses() {
             
         })
         setTableData(data.allResponsesData)
+            console.log("hii");
             console.log(data.allResponsesData);
        setTableHeader(data.componentTypes);
         setViews(data.views);
@@ -150,9 +151,9 @@ function FormResponses() {
   <tbody>
     {tableData.map((row, rowIndex) => (
       <tr key={rowIndex}>
-        <td>{rowIndex }</td>
+        <td>{rowIndex+1 }</td>
         <td>{submittedAt[rowIndex]}</td>
-        {row.slice(2, row.length ).map((cell, cellIndex) => (
+        {row.slice(1, row.length ).map((cell, cellIndex) => (
             <td key={cellIndex}>{String(cell).trim() || ' '}</td>
         ))}
       </tr>
